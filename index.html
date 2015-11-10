@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <!--Relate document to relevant CSS-->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!--Log in option styled into top right of the banner logo-->
+    <header>
+      <p class="alert">You are not logged in (<a href="#">Log in</a>)</p>
+      <img class="banner" src="assets/banner-image.jpg" />
+    </header>
+
+  </div>
+
+  <!--Menu horizonal on smaller devices, vertigal on larger devices-->
+
+  <nav class="top-menu">
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">My Learning</a></li>
+      <li><a href="#">Find Courses</a></li>
+      <li><a href="#">FAQs</a></li>
+      <li><a href="#">Calendar</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Reports and Charts</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+
+  </nav>
+
+  <div class="container">
+
+    <!--Breadcrumb trail to show previous pages, not in operation-->
+
+    <section class="bread-crumb">
+
+      <p><a href="#">Home</a> / <a href="#">Welcome to Uk Trade &amp; Investment</a></p>
+
+    </section>
+
+    <div class="clearfix">
+
+      <section class="introduction">
+
+        <h1>Welcome to the UKTI Learning Academy</h1>
+
+        <img src="assets/image-1.jpg" />
+
+        <p>UKTI Learning Academy provides courses and resources for developing business specific skills common to all UKTI staff.</p>
+
+        <p>Log in to find UKTI E-learning, online resources and classroom courses to support your current and future career aspirations with UKTI.</p>
+
+      </section>
+
+      <!--Form for login option. Add PHP to enable functionality-->
+
+      <section class="login">
+
+        <p>Login here using your username and password</p>
+
+        <p>(Cookies must be enabled in your browser)</p>
+
+        <form action="#" method="post">
+
+          <div>
+            <label for="username">Username:</label>
+            <input type="text" name="username" />
+          </div>
+
+          <div>
+            <label for="password">Password:</label>
+            <input type="password" name="password" />
+          </div>
+
+          <div>
+            <input type="submit" value="Log in" />
+          </div>
+
+          <div>
+            <input type="checkbox" name="remember" />
+            <label>Remember username</label>
+          </div>
+
+        </form>
+
+        <p><a href="#">Forgotten your username or password?</a></p>
+
+      </section>
+
+    </div>
+
+    <section>
+
+      <!--Relational to Breakpoint through media tags-->
+
+      <h2>Our Courses</h2>
+
+      <section class="courses clearfix">
+
+        <ul>
+
+          <li>
+            <img src="assets/course-3.jpg" />
+            <div class="information">
+              <h3>Effective Accounting</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <p>Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <p><a class="read-more" href="">Read more</a></p>
+            </div>
+          </li>
+
+          <li>
+            <img src="assets/course-2.jpg" />
+            <div class="information">
+              <h3>Custom Certificates</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <p>Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <p><a class="read-more" href="">Read more</a></p>
+            </div>
+          </li>
+
+          <li>
+            <img src="assets/course-1.jpg" />
+            <div class="information">
+              <h3>Corporate Induction</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <p>Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <p><a class="read-more" href="">Read more</a></p>
+            </div>
+          </li>
+
+          <li>
+            <img src="assets/course-4.jpg" />
+            <div class="information">
+              <h3>Investment</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+              <p>Ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <p><a class="read-more" href="">Read more</a></p>
+            </div>
+          </li>
+
+
+        </ul>
+
+      </section>
+
+    </section>
+
+  </div>
+
+  <footer>
+
+    <nav class="bottom-menu">
+      <!--Footer requires logo-->
+
+      <ul>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Web</a></li>
+        <li><a href="#">Email</a></li>
+      </ul>
+
+    </nav>
+
+  </footer>
+
+</body>
+
+</html>
